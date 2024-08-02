@@ -1,5 +1,7 @@
 {
   "devDependencies": {
+    "vite": "^5.3.5",
+    "vite-plugin-vitepress-auto-nav": "^2.3.3",
     "vitepress": "^1.2.0"
   },
   "scripts": {

@@ -1,4 +1,4 @@
-<!-- > 插件由用户[冷鱼与热猫（83354）](https://dao3.fun/profile/83354)投稿
+> 插件由用户[冷鱼与热猫（83354）](https://dao3.fun/profile/83354)投稿
 > 收录时间：2024/6/5
 
 插件介绍：
@@ -75,7 +75,7 @@
 ---
 
 
-#### getTableData(config:{ fields?:string, sort?:string, filter?:string, page?:number, limit?:number, id?:string }) : Promise<[GetDataObject](#Oby5f)>
+#### getTableData(config:{ fields?:string, sort?:string, filter?:string, page?:number, limit?:number, id?:string }) : Promise<GetDataObject>
 **获取数据表的数据**
 
 **输入参数**
@@ -111,13 +111,13 @@
 
 | **类型** | **说明** |
 | --- | --- |
-| Promise<[GetDataObject](#Oby5f)> | 服务器返回的数据 |
+| Promise<GetDataObject> | 服务器返回的数据 |
 
 
 ---
 
 
-#### getMultipleTableData(config:{ tableid:string,fields?:string, sort?:string, filter?:string, page?:number, limit?:number, id?:string }) : Promise<[GetDataObject](#Oby5f)>
+#### getMultipleTableData(config:{ tableid:string,fields?:string, sort?:string, filter?:string, page?:number, limit?:number, id?:string }) : Promise<GetDataObject>
 **多表查询数据表数据**
 
 **输入参数**
@@ -156,13 +156,13 @@
 
 | **类型** | **说明** |
 | --- | --- |
-| Promise<[GetDataObject](#Oby5f)> | 服务器返回的数据 |
+| Promise<GetDataObject> | 服务器返回的数据 |
 
 
 ---
 
 
-#### setTableData(config:{ type:'UPDATE' | 'INSERT', fields:string, filter:string,  id?:string }) : Promise<[SetDataObject](#D53YU)>
+#### setTableData(config:{ type:'UPDATE' | 'INSERT', fields:string, filter:string,  id?:string }) : Promise<SetDataObject>
 **更新/新增数据表的数据**
 
 **输入参数**
@@ -186,13 +186,13 @@
 
 | **类型** | **说明** |
 | --- | --- |
-| Promise<[SetDataObject](#D53YU)> | 服务器返回的数据 |
+| Promise<SetDataObject> | 服务器返回的数据 |
 
 
 ---
 
 
-#### setTableDataDelete(config:{filter:string,id?:string }) : Promise<[SetDataObject](#D53YU)>
+#### setTableDataDelete(config:{filter:string,id?:string }) : Promise<SetDataObject>
 **删除数据表的数据**
 
 **输入参数**
@@ -212,13 +212,13 @@
 
 | **类型** | **说明** |
 | --- | --- |
-| Promise<[SetDataObject](#D53YU)> | 服务器返回的数据 |
+| Promise<SetDataObject> | 服务器返回的数据 |
 
 
 ---
 
 
-#### 事件onGetData(handler:(data:[GetDataObject](#Oby5f) | [SetDataObject](#D53YU), id:string, url:string) => void) : void
+#### 事件onGetData(handler:(data:GetDataObject | SetDataObject, id:string, url:string) => void) : void
 **获取数据内容时触发的的事件**
 
 **输入参数**
@@ -263,4 +263,4 @@
 | msg | string | 请求状态 |
 | sql | string | 【报错时】SQL语法 |
 | error | string | 【报错时】SQL报错提示 |
- -->
+

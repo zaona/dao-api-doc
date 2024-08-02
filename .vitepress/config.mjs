@@ -1,8 +1,16 @@
+import AutoNav from "vite-plugin-vitepress-auto-nav";
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 
 export default defineConfig({
+  vite: {
+    plugins: [
+      AutoNav({
+        // 自定义配置
+      }),
+    ],
+  },
   srcDir: 'docs',
   cleanUrls: true,
   lang: 'zh',
@@ -58,27 +66,20 @@ export default defineConfig({
     //   text: '在 GitHub 上编辑此页面'
     // },
 
-    nav: [
-      {
-        text: '首页',
-        link: '/'
-      },
-      {
-        text: '参与编写',
-        items: [
-          {
-            text: '编写指南',
-            link: '/example/编写指南'
-          }
-        ],
-      }
-    ],
-
-    sidebar: [
-      {
-        text: '【Arena插件】Chat吉PT',
-        link: '/【Arena插件】Chat吉PT/【Arena插件】Chat吉PT'
-      }
-    ],
+    // nav: [
+    //   {
+    //     text: '首页',
+    //     link: '/'
+    //   },
+    //   {
+    //     text: '参与编写',
+    //     items: [
+    //       {
+    //         text: '编写指南',
+    //         link: '/example/编写指南'
+    //       }
+    //     ],
+    //   }
+    // ],
   }
 })
