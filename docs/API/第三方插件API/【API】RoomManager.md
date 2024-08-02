@@ -39,9 +39,7 @@
 | **参数** | **必填** | **默认值** | **类型** | **说明** |
 | --- | --- | --- | --- | --- |
 | id | _是_ | | number | 房间ID |
-| entity | _是_ | 
-
- | [GameEntity](https://www.yuque.com/box3lab/api/inriuuvzg5yb54kv) | 玩家对象 |
+| entity | _是_ | | [GameEntity](https://www.yuque.com/box3lab/api/inriuuvzg5yb54kv) | 玩家对象 |
 
 **返回值**
 
