@@ -38,9 +38,7 @@
 
 | **参数** | **必填** | **默认值** | **类型** | **说明** |
 | --- | --- | --- | --- | --- |
-| id | _是_ | 
-
- | number | 房间ID |
+| id | _是_ | | number | 房间ID |
 | entity | _是_ | 
 
  | [GameEntity](https://www.yuque.com/box3lab/api/inriuuvzg5yb54kv) | 玩家对象 |
@@ -62,9 +60,7 @@
 
 | **参数** | **必填** | **默认值** | **类型** | **说明** |
 | --- | --- | --- | --- | --- |
-| entity | _是_ | 
-
- | [GameEntity](https://www.yuque.com/box3lab/api/inriuuvzg5yb54kv) | 玩家对象 |
+| entity | _是_ | | [GameEntity](https://www.yuque.com/box3lab/api/inriuuvzg5yb54kv) | 玩家对象 |
 
 **返回值**
 
@@ -83,15 +79,9 @@
 
 | **参数** | **必填** | **默认值** | **类型** | **说明** |
 | --- | --- | --- | --- | --- |
-| id | _是_ | 
-
- | number | 房间id |
-| entity | _是_ | 
-
- | [GameEntity](https://www.yuque.com/box3lab/api/inriuuvzg5yb54kv) | 玩家对象 |
-| isHomeowner | 
-
- | _false_ | boolean | 是否为房主，如果是将直接解散房间 |
+| id | _是_ | | number | 房间id |
+| entity | _是_ | | [GameEntity](https://www.yuque.com/box3lab/api/inriuuvzg5yb54kv) | 玩家对象 |
+| isHomeowner | | _false_ | boolean | 是否为房主，如果是将直接解散房间 |
 
 
 ---
@@ -104,9 +94,7 @@
 
 | **参数** | **必填** | **默认值** | **类型** | **说明** |
 | --- | --- | --- | --- | --- |
-| id | _是_ | 
-
- | number | 房间ID |
+| id | _是_ | | number | 房间ID |
 
 **返回值**
 
@@ -138,9 +126,7 @@
 
 | **参数** | **必填** | **默认值** | **类型** | **说明** |
 | --- | --- | --- | --- | --- |
-| id | _是_ | 
-
- | number | 房间ID |
+| id | _是_ | | number | 房间ID |
 
 **返回值**
 
@@ -172,9 +158,7 @@
 
 | **参数** | **必填** | **默认值** | **类型** | **说明** |
 | --- | --- | --- | --- | --- |
-| id | _是_ | 
-
- | number | 房间ID |
+| id | _是_ | | number | 房间ID |
 
 **返回值**
 
@@ -193,9 +177,7 @@
 
 | **参数** | **必填** | **默认值** | **类型** | **说明** |
 | --- | --- | --- | --- | --- |
-| id | _是_ | 
-
- | number | 房间ID |
+| id | _是_ | | number | 房间ID |
 
 **返回值**
 

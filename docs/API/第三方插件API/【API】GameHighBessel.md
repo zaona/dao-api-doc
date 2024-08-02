@@ -16,8 +16,7 @@
 | **_参数_** | **_必填_** | **_默认值_** | **_类型_** | **_说明_** |
 | --- | --- | --- | --- | --- |
 | config | _是_ | 
-
- | [GameHighBesselConfig](#znJ14) | 贝塞尔数据配置 |
+| [GameHighBesselConfig](#znJ14) | 贝塞尔数据配置 |
 
 
 
@@ -130,8 +129,7 @@
 | **参数** | **必填** | **默认值** | **类型** | **说明** |
 | --- | --- | --- | --- | --- |
 | handler | _是_ | 
-
- | function | 监听得到动画播放完毕的处理的函数 |
+| function | 监听得到动画播放完毕的处理的函数 |
 
 
 
@@ -142,20 +140,8 @@
 
 | 参数 | 必填 | 默认值 | 类型 | 说明 |
 | --- | --- | --- | --- | --- |
-| entity | 是 | 
-
- | [GamePlayer](https://www.yuque.com/box3lab/api/inriuuvzg5yb54kv)[] | 批量观看该动画的玩家列表 |
-| cameraEntity | 是 | 
-
- | [GameEntity](https://www.yuque.com/box3lab/api/crnsxu2gtymwx013)  | 充当摄像机的实体 |
-| linear | 
-
- | null | number | 缓动方式：1,2,3,null  逐步加速，逐步减速等 |
-| delay | 
-
- | 10 | number | 每x毫秒刷新一次摄像机位置 |
-| offset | 
-
- | [0, 0, 0] | [x,y,z] | 轴偏移量，在原本位置坐标基础上进行偏移 |
-
-
+| entity | 是 | | [GamePlayer](https://www.yuque.com/box3lab/api/inriuuvzg5yb54kv)[] | 批量观看该动画的玩家列表 |
+| cameraEntity | 是 | | [GameEntity](https://www.yuque.com/box3lab/api/crnsxu2gtymwx013)  | 充当摄像机的实体 |
+| linear | | null | number | 缓动方式：1,2,3,null  逐步加速，逐步减速等 |
+| delay | | 10 | number | 每x毫秒刷新一次摄像机位置 |
+| offset | | [0, 0, 0] | [x,y,z] | 轴偏移量，在原本位置坐标基础上进行偏移 |

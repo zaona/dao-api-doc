@@ -15,9 +15,7 @@
 
 | **_参数_** | **_必填_** | **_默认值_** | **_类型_** | **_说明_** |
 | --- | --- | --- | --- | --- |
-| config | _是_ | 
-
- | [CameraLagConfig](#znJ14) | 弹簧壁数据配置 |
+| config | _是_ | | [CameraLagConfig](#znJ14) | 弹簧壁数据配置 |
 
 
 
@@ -121,9 +119,7 @@
 
 | **参数** | **必填** | **默认值** | **类型** | **说明** |
 | --- | --- | --- | --- | --- |
-| vector3 | _是_ | 
-
- | [GameVector3](https://www.yuque.com/box3lab/api/sug8utrs043aep5v) | 摄像机模型缩放大小 |
+| vector3 | _是_ | | [GameVector3](https://www.yuque.com/box3lab/api/sug8utrs043aep5v) | 摄像机模型缩放大小 |
 
 
 ---
@@ -140,9 +136,9 @@
 
 ---
 
-
 #### sete1Position()** : void**
-**实体与摄像机位置同步 **
+
+**实体与摄像机位置同步**
 
 
 ### **接口**
@@ -152,12 +148,8 @@
 
 | 参数 | 必填 | _默认值_ | 类型 | 说明 |
 | --- | --- | --- | --- | --- |
-| entity | 是 | 
-
- | [GamePlayer](https://www.yuque.com/box3lab/api/inriuuvzg5yb54kv) | 玩家实体 |
-| cameraEntity | 是 | 
-
- | [GameEntity ](https://www.yuque.com/box3lab/api/crnsxu2gtymwx013) | 充当摄像机的实体 |
+| entity | 是 | | [GamePlayer](https://www.yuque.com/box3lab/api/inriuuvzg5yb54kv) | 玩家实体 |
+| cameraEntity | 是 | | [GameEntity ](https://www.yuque.com/box3lab/api/crnsxu2gtymwx013) | 充当摄像机的实体 |
 | cameraDelay | 否 | 0.01 | number | 摄像机呼吸速度，数值越小，速度越快 |
 | breatheAmplitudeY | 否 | 20 | number | 摄像机Y轴摆动幅度，数值越大摆动越大 |
 | radiusMultiplierY | 否 | 0.3 | number | 摄像机Y轴摆动半径倍数，在摆动基础上×对应的倍数 |
@@ -165,5 +157,4 @@
 | radiusMultiplierX | 否 | 0.2 | number | 摄像机X轴摆动半径倍数，在摆动基础上×对应的倍数 |
 | breatheAmplitudeZ | 否 | 60 | number | 摄像机Z轴摆动幅度，数值越大摆动越大 |
 | radiusMultiplierZ | 否 | 0.2 | number | 摄像机Z轴摆动半径倍数，在摆动基础上×对应的倍数 |
-
 

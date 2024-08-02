@@ -36,10 +36,6 @@
 
 ---
 
-
-
-
-
 ### 方法
 
 #### setTimer(cd:number,cb:function,loop?:boolean) : void
@@ -49,16 +45,9 @@
 
 | **参数** | **必填** | **默认值** | **类型** | **说明** |
 | --- | --- | --- | --- | --- |
-| cd | _是_ | 
-
- | number | 循环间隔 |
-| cb | _是_ | 
-
- | function | 自定义回调函数 |
-| loop | 
-
- | _false_ | boolean | 是否开启循环 |
-
+| cd | _是_ | | number | 循环间隔 |
+| cb | _是_ | | function | 自定义回调函数 |
+| loop | | _false_ | boolean | 是否开启循环 |
 
 ---
 
@@ -78,9 +67,7 @@
 
 | **参数** | **必填** | **默认值** | **类型** | **说明** |
 | --- | --- | --- | --- | --- |
-| dt | _是_ | 
-
- | number | 增量时间（detalTime） |
+| dt | _是_ | | number | 增量时间（detalTime） |
 
 ```javascript
 let lastUpdateDate = Date.now();

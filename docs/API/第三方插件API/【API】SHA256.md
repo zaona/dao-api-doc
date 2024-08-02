@@ -5,8 +5,6 @@
 
 [【哈希】SHA256](https://www.yuque.com/box3lab/doc/aos0rhxmakgg8eet?view=doc_embed)
 
-### 
-
 ### 方法
 
 #### sha256(text:string) : string
@@ -17,8 +15,7 @@
 | **参数** | **必填** | **默认值** | **类型** | **说明** |
 | --- | --- | --- | --- | --- |
 | text | _是_ | 
-
- | string | 明文 |
+| string | 明文 ||||
 
 **返回值**
 
