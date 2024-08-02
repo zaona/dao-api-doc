@@ -14,7 +14,7 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /【Arena插件】Chat吉PT/【Arena插件】Chat吉PT
+      link: /API/新手入门/事件回调函数与异步处理机制
 
 features:
   - icon: ⚡

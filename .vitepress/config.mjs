@@ -7,8 +7,27 @@ export default defineConfig({
   vite: {
     plugins: [
       AutoNav({
-        // 自定义配置
-      }),
+        pattern: "**.md",
+        itemsSetting: {
+          "API/新手入门": { sort : 0 },
+          "API/🌍游戏世界": { sort : 1 },
+          "API/🧱游戏方块": { sort : 2 },
+          "API/🏠游戏模型实体": { sort : 3 },
+          "API/🕺游戏模型动作": { sort : 4 },
+          "API/👤游戏玩家": { sort : 5 },
+          "API/🖼️游戏用户界面": { sort : 6 },
+          "API/📈游戏数据存储": { sort : 7 },
+          "API/🔗游戏外部数据请求": { sort : 8 },
+          "API/🟰游戏数学": { sort : 9 },
+          "API/动画对象": { sort : 10 },
+          "API/音乐对象": { sort : 11 },
+          "API/事件监听": { sort : 12 },
+          "API/第三方插件API": { sort : 13 },
+          "API": { sort : 14 },
+          "【Arena插件】Chat吉PT": { sort : 15 },
+          "参与编写": { sort : 16 },
+        },
+      })
     ],
   },
   srcDir: 'docs',
